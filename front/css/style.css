@@ -486,3 +486,25 @@ color: white;
 border: 0px;
 margin-top: 40px;
 }
+
+
+.book_app_doctor_d{
+margin-top: 200px;
+}
+
+.book_app_doctor_d .f_doctor_d .doctor_slider{
+position: relative;
+width: 520px;
+height: 480px;
+flex-shrink: 0;
+fill: var(--primary-primary-10, rgba(80, 148, 93, 0.10));
+background: url("../img/fb_backround.svg");
+}
+
+.book_app_doctor_d .f_doctor_d .doctor_slider img{
+position: absolute;
+top: -90px;
+left: 10px;
+z-index: 99;
+}
+
