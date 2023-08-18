@@ -281,6 +281,25 @@ justify-content: center;
 align-items: center;
 }
 
+.quality_info h1{
+color: var(--dark-500, #0E140F);
+text-align: center;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 135% */
+}
+.quality_info p{
+color: var(--gray-500, #AEB4AF);
+text-align: center;
+
+/* Body-1 Regular */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
 .quality_main {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
@@ -631,8 +650,8 @@ padding: 40px 100px;
 }
 
 .sec_info{
-  display: flex;
-  justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 
 .sec_info div{
@@ -723,18 +742,18 @@ display: flex;
 justify-content: flex-start;
 }
 .sendMailDiv .inputEmail{
-  color: black;
-  /* Body-1 Regular */
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-  border: none;
-  width: 100%;
+color: black;
+/* Body-1 Regular */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+border: none;
+width: 100%;
 }
 .sendMailDiv .inputEmail:focus{
-  outline: none;
-  border: none;
+outline: none;
+border: none;
 }
 
 .inputSubmit{
@@ -755,74 +774,74 @@ color:white;
 
 
 
-/* testimonial  */
+/* testimonial */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&family=Ubuntu&display=swap');
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    list-style: none;
-    text-decoration: none;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+list-style: none;
+text-decoration: none;
 }
 .testimonial{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+margin-bottom: 300px;
 }
 .testimonial-heading{
-    letter-spacing: 1px;
-    margin: 30px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+letter-spacing: 1px;
+margin: 30px 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .testimonial-heading h1{
-    font-size: 2rem;
-    font-weight: 500;
+font-size: 2rem;
+font-weight: 500;
 }
 .testimonial-heading p{
-    letter-spacing: 2px;
-    color: #949494;
-    margin-bottom: 10px;
+letter-spacing: 2px;
+color: #949494;
+margin-bottom: 10px;
 }
 .testimonial-box-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
 }
 .testimonial-box{
-    width: 600px;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
-    padding: 20px;
-    margin: 15px;
-    cursor: pointer;
+width: 600px;
+box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+padding: 20px;
+margin: 15px;
+cursor: pointer;
 }
 .profile{
-    display: flex;
-    align-items: center;
-    padding: 13px;
+display: flex;
+align-items: center;
+padding: 13px;
 }
 .profile-name{
-    padding:0px 13px ;
+padding:0px 13px ;
 }
 .profile-name span{
-    font-size: 13px;
-    color: #949494;;
+font-size: 13px;
+color: #949494;;
 }
 .star{
-    display: flex;
-    justify-content: space-between;
-    padding: 13px;
+display: flex;
+justify-content: space-between;
+padding: 13px;
 }
 .client-comment{
-    padding:0px 13px ;
-    font-size: 0.9rem;
+padding:0px 13px ;
+font-size: 0.9rem;
 }
