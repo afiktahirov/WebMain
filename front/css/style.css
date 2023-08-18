@@ -489,12 +489,13 @@
   z-index: 99;
 }
 
+/* specialist style start */
 .spc-area {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 90%;
+  max-width: 100%;
 }
 .specialist {
   display: flex;
@@ -617,3 +618,140 @@
   border: 1px solid var(--primary-500, #50945d);
   cursor: pointer;
 }
+/* specialist style end */
+
+/* testimonial style start */
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 100px;
+}
+.testimonial-heading {
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-heading h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.testimonial-heading p {
+  letter-spacing: 2px;
+  color: #949494;
+  margin-bottom: 10px;
+}
+.testimonial-box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.testimonial-box {
+  width: 600px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+}
+.profile-name {
+  padding: 0px 13px;
+}
+.profile-name span {
+  font-size: 13px;
+  color: #949494;
+}
+.star {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+}
+.client-comment {
+  padding: 0px 13px;
+  font-size: 0.9rem;
+}
+/* testimonial style end */
+
+
+
+
+/* footer style starts */
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+.footer-col{
+  font-size: 22px;
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+ 
+}
+.footer-col img{
+  margin-bottom: 43px;
+  padding-top: 10px;
+}
+.footer-col h4{
+  padding-bottom: 10px;
+}
+.footer-col h4::before{
+  content: '';
+  width: 220px;
+  height: 2px;
+  background-color: rgb(30, 181, 30);
+  position: absolute;
+  top: 26px;
+}
+.footer-col ul li {
+  padding: 10px 0;
+}
+.footer-col ul li a{
+  color: black;
+  font-size: 16px;
+  transition: 0.5s;
+  opacity: 0.7;
+}
+.footer-col ul li a svg{
+  padding-top: 5px;
+}
+.footer-col ul li a:hover{
+  opacity: 1;
+}
+.footer-col input{
+  border-radius: 5px;
+  border: solid 2px rgb(184, 184, 184);
+  width: 250px;
+  height: 45px;
+  display: block;
+  padding: 10px;
+}
+.footer-col .inputSubmit{ 
+  width: 100px;
+  margin-top: 10px;
+  background: var(--primary-500, #50945cb1);
+  transition: 0.5s;
+}
+.footer-col .inputSubmit:hover{ 
+  background-color: #50945c;   
+}
+.socialIcons a i{
+  font-size: 30px;
+  padding-left: 12px;
+}
+.socialIcons a i:hover{
+  transition: 0.5s;
+  opacity: 0.5;
+}
+/* footer style ends */
