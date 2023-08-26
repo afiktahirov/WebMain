@@ -890,3 +890,104 @@ line-height: 26px; /* 162.5% */
     gap: 2px;
     align-items: center;
 }
+
+/* Services main  */
+
+
+.services_content{
+    margin-top: 50px;
+    margin-bottom: 300px;
+    width: 100%;
+    height: 1892px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.services_content .services{
+    width: 100%;
+    height: 100%;
+}
+
+.services .services_head{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services .services_head .services_found{
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    height: 30px;
+}
+.services .services_head .services_found p{
+    
+    color: var(--dark-500, #0E140F);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.services .services_head .services_option{
+    display: flex;
+height: 50px;
+padding: 10px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+border: 1px solid var(--gray-gray-20, rgba(174, 180, 175, 0.20));
+}
+.services .services_head .services_option select{
+    border: 0px;
+}
+.services .services_head .services_option select:focus{
+    outline: none;
+    border: none;
+}
+
+.services_main{
+  margin-top: 25px;
+  width: 100%;
+  height: 90%;   
+}
+
+.services_main .service_md{
+    width: 366px;
+    height: 554px;
+}
+.services_main .service_md .service_img{
+    width: 366px;
+    height: 260px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+    background: url("../img/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+}
+.services_main .service_md .service_info h1{
+color: var(--dark-500, #0E140F);
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+.services_main .service_md .service_info p{
+    color: var(--gray-500, #AEB4AF);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.services_main .service_md .service_special_doctors{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    position: relative;
+}
