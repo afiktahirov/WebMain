@@ -967,13 +967,14 @@ border: 1px solid var(--gray-gray-20, rgba(174, 180, 175, 0.20));
     width: 366px;
     height: 554px;
 }
+
 .services_main .service_md .service_img{
     width: 366px;
     height: 260px;
     flex-shrink: 0;
 
     border-radius: 16px;
-    background: url("../img/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+    /* background: url("../img/Rectangle\ 11.png"), lightgray 50% / cover no-repeat; */
 }
 .services_main .service_md .service_info h1{
 color: var(--dark-500, #0E140F);
@@ -1029,4 +1030,9 @@ border-radius: 10px;
 border: 1px solid var(--primary-500, #50945D);
 color: #50945c;
 background-color: white;
+}
+
+.service_md button:hover{
+    background-color: #50945c;
+    color: white;
 }
